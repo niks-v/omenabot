@@ -112,6 +112,337 @@
 	"f":[
 		"https://cdn.discordapp.com/attachments/720598695191511110/720861011032408064/F.png",
 		"https://cdn.discordapp.com/attachments/720598695191511110/721123893716189224/tenor.gif"
-	]
+	],
+	"command_docs":{
+		"1":[
+			{
+				"name":"/advancement",
+				"value":"Gives, removes, or checks player advancements. [See offical documentation.](https://minecraft.gamepedia.com/Commands/advancement)"
+			},
 
+			{
+				"name":"/ban <name> [<reason>]",
+				"value":"Adds player to banlist."
+			},
+
+			{
+				"name":"/ban-ip [<address>|<name>] [<reason>]",
+				"value":"Adds IP address to banlist."
+			},
+
+			{
+				"name":"/banlist [ips|players]",
+				"value":"Displays banlist."
+			},
+
+			{
+				"name":"/bossbar",
+				"value":"Creates and modifies bossbars. [See official documentation](https://minecraft.gamepedia.com/Commands/bossbar)"
+			},
+
+			{
+				"name":"/clear [<targets>] [<item>] [<maxCount>]",
+				"value":"Clears items from player inventory."
+			},
+
+			{
+				"name":"/clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [maskMode] [cloneMode] [TileName] [dataValue|state]",
+				"value":"Copies blocks from one place to another."
+			},
+			{
+				"name":"/data",
+				"value":"Gets, merges, modifies and removes block entity and entity NBT data. [See official documentation]{https://minecraft.gamepedia.com/Commands/data}"
+			},
+			{
+				"name":"/datapack",
+				"value":"Controls loaded datapacks. [See official documentation]{https://minecraft.gamepedia.com/Commands/datapack}"
+			},
+			{
+				"name":"/debug {start|stop|report}",
+				"value":"Starts or stops a debugging session."
+			},
+			{
+				"name":"/defaultgamemode <mode>",
+				"value":"Sets the default game mode."
+			},
+			{
+				"name":"/deop <player>",
+				"value":"Revokes operator status from a player."
+			},
+			{
+				"name":"/difficulty [<difficulty>]",
+				"value":"Sets the difficulty level."
+			},
+			{
+				"name":"/effect give <entity> <effect> [<seconds>] [<amplifier>] [<hideParticles>]",
+				"value":"Apply status effect{s}."
+			},
+			{
+				"name":"/effect clear <entity> [<effect>]",
+				"value":"Remove status effect{s}."
+			},
+			{
+				"name":"/enchant <player> <enchantment ID> [level]",
+				"value":"Enchants a players item."
+			},
+			{
+				"name":"/execute",
+				"value":"Executes another command. [See official documentation]{https://minecraft.gamepedia.com/Commands/execute}"
+			},
+			{
+				"name":"/fill <x1> <y1> <z1> <x2> <y2> <z2> <block> [destroy|hollow|keep|outline|replace]",
+				"value":"Fills a region with a specific block."
+			},
+			{
+				"name":"/forceload add <x1> <z1> [<x2> <z2>]",
+				"value":"Forces a chunk to be constantly loaded."
+			},
+			{
+				"name":"/forceload remove <x1> <z1> [<x2> <z2>]",
+				"value":"Removes a force-loaded chunk"
+			},
+			{
+				"name":"/forceload reomve all",
+				"value":"Removes all for-loaded chunks."
+			},
+			{
+				"name":"/forceload query [<x1> <z1>]",
+				"value":"Tells you if specified chunk is force-loaded."
+			},
+			{
+				"name":"/function <function>",
+				"value":"Runs a function"
+			},
+			{
+				"name":"/gamemode <mode> [player]",
+				"value":"Sets a player's game mode."
+			},
+			{
+				"name":"/gamerule <rule name> [value]",
+				"value":"Sets or queries a game rule value."
+			}
+		],
+		"2":[
+			{
+				"name":"/give <player> <item>[<NBT>] [<count>]",
+				"value":"Gives an item to a player."
+			},
+			{
+				"name":"/help [<command>]",
+				"value":"Provides help for commmands."
+			},
+			{
+				"name":"/kick <player> [reason]",
+				"value":"Kicks a player off a server"
+			},
+			{
+				"name":"/kill [<targets>]",
+				"value":"Kills entities."
+			},
+			{
+				"name":"/list [uuids]",
+				"value":"Lists players on the server."
+			},
+			{
+				"name":"/locate <StructureType>",
+				"value":"Locates the closest structure."
+			},
+			{
+				"name":"/loot <target> <source>",
+				"value":"Drops itesm from an inventory slot onto the ground."
+			},
+			{
+				"name":"/me <action>",
+				"value":"Displays a message about the sender."
+			},
+			{
+				"name":"/tell or /msg or /w <player> <message>",
+				"value":"Displays a private message to other players."
+			},
+			{
+				"name":"/op <player>",
+				"value":"Grants operator status to a player."
+			},
+			{
+				"name":"/pardon <player>",
+				"value":"Removes entries from the banlist."
+			},
+			{
+				"name":"/pardon-ip <address>",
+				"value":"Removes entries from the banlist."
+			},
+			{
+				"name":"/particle <name> [<pos>] [<delta>] <speed> <count> [<mode>] [<viewers>]",
+				"value":"Creates particles."
+			},
+			{
+				"name":"/playsound <sound> <source> <player> [x] [y] [z] [volume] [pitch] [minimumVolume]",
+				"value":"Plays a sound."
+			},
+			{
+				"name":"/publish [port]",
+				"value":"Opens single-player world to local network."
+			},
+			{
+				"name":"/recipe <give|take> [player] <name|*>",
+				"value":"Gives or takes player recipes."
+			},
+			{
+				"name":"/reload",
+				"value":"Reloads loot tables, advancements, and functions from disk."
+			},
+			{
+				"name":"/replaceitem block <x> <y> <z> <slot> <item> [amount]",
+				"value":"Replaces items in inventories."
+			},
+			{
+				"name":"/replaceitem entity <selector> <slot> <item> [amount]",
+				"value":"Replaces items in inventories."
+			},
+			{
+				"name":"/save-all [flush]",
+				"value":"Saves the server to disk."
+			},
+			{
+				"name":"/save-off",
+				"value":"Disables automatic server saves."
+			},
+			{
+				"name":"/save-on",
+				"value":"Enables automatic server saves."
+			},
+			{
+				"name":"/say <message>",
+				"value":"Displays a message to multiple players."
+			},
+			{
+				"name":"/schedule function <function> <time> [append|replace]",
+				"value":"Delays the execution of a function."
+			},
+			{
+				"name":"/schedule clear <function>",
+				"value":"Clears a scheduled function."
+			}
+		],
+		"3":[
+			{
+				"name":"/seed",
+				"value":"Displays the world seed."
+			},
+			{
+				"name":"/setblock",
+				"value":"Changes a block to another block. [See official documentation]{/schedule clear <function>},"
+			},
+			{
+				"name":"/setidletimeout <minutes until kick>",
+				"value":"Sets the time before idle players are kicked."
+			},
+			{
+				"name":"/setworldspawn [<x> <y> <z>]",
+				"value":"Sets the world spawn."
+			},
+			{
+				"name":"/spawnpoint [<player>] [<x> <y> <z>]",
+				"value":"Sets the spawn point for a player."
+			},
+			{
+				"name":"/spectate [target] [player]",
+				"value":"Make one player in spectator mode spectate an entity."
+			},
+			{
+				"name":"/spreadplayers <x> <z> <spreadDistance> <maxRange> <respectTeams> <player>",
+				"value":"Teleoprts entities to random locations."
+			},
+			{
+				"name":"/stop",
+				"value":"Stops a server."
+			},
+			{
+				"name":"/stopsound <player> [<source>] [<sound>]",
+				"value":"Stops a sound."
+			},
+			{
+				"name":"/summon <entity_name> [<pos>] [<nbt>]",
+				"value":"Summons an entity."
+			},
+			{
+				"name":"/tag <targets> add <name>",
+				"value":"Adds an entity tag."
+			},
+			{
+				"name":"/tag <targets> remove <name>",
+				"value":"Removes an entity tag."
+			},
+			{
+				"name":"/tag <targets> list",
+				"value":"Lists all entity tags."
+			},
+			{
+				"name":"/team",
+				"value":"Controls teams. [See official documentation]{/tag <targets> list},"
+			},
+			{
+				"name":"/teammsg <message>",
+				"value":"Specifies the message to send to the team."
+			},
+			{
+				"name":"/tp or /teleport",
+				"value":"Teleports entities. [See offical documentation]{https://minecraft.gamepedia.com/Commands/tp},"
+			},
+			{
+				"name":"/tellraw <player> <raw json message>",
+				"value":"Displays a JSON message to players."
+			},
+			{
+				"name":"/time <add|query|set> <value>",
+				"value":"Changes or queries the world's game time."
+			},
+			{
+				"name":"/title",
+				"value":"Manages screen titles. [See offical documentation]{https://minecraft.gamepedia.com/Commands/title},"
+			},
+			{
+				"name":"/trigger <objective> [<add|set> <value>]",
+				"value":"Sets a trigger to be activated."
+			},
+			{
+				"name":"/weather <clear|rain|thunder> [duration]",
+				"value":"Sets the weather."
+			},
+			{
+				"name":"/whitelist add <player>",
+				"value":"Adds a player to whitelist."
+			},
+			{
+				"name":"/whitelist remove <player>",
+				"value":"Removes a player from whitelist."
+			},
+			{
+				"name":"/whitelist [on|off|list|reload]",
+				"value":"Manages server whitelist."
+			},
+			{
+				"name":"/worldborder",
+				"value":"Manages the world border. [See official documentation]{/worldborder},"
+			},
+			{
+				"name":"/xp [add|set] <players> <amount> [points|levels]",
+				"value":"Adds or removes player experience."
+			},
+			{
+				"name":"/xp query <player> <amount> [points|levels]",
+				"value":"Displays a player's current experience."
+			}
+		],
+		"4":[
+			{
+				"name":"/xp [add|set] <players> <amount> [points|levels]", 
+				"value":"Adds or removes player experience."
+			},
+			{
+				"name":"/xp query <player> <amount> [points|levels]", 
+				"value":"Displays a player's current experience."
+			}
+		]
+	}
 }
